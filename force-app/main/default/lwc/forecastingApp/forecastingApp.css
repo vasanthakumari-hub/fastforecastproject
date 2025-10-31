@@ -1,0 +1,14 @@
+.slds-table_cell-buffer td,
+.slds-table_cell-buffer th {
+  padding: 0.75rem;
+}
+
+.slds-table_bordered td,
+.slds-table_bordered th {
+  border-right: 1px solid #e5e5e5;
+}
+
+.slds-table_bordered tr:last-child td,
+.slds-table_bordered tr:last-child th {
+  border-bottom: 1px solid #e5e5e5;
+}

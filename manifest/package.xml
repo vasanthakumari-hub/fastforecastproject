@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ForecastingService</members>
+        <members>ForecastController</members>
+        <members>ForecastDataFormatter</members>
+        <members>ForecastingServiceTest</members>
+        <members>CreateTestForecast</members>
+        <members>InsertForecastRecord</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Forecast__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Forecast__c.AccountId__c</members>
+        <members>Forecast__c.Amount__c</members>
+        <members>Forecast__c.ForecastDate__c</members>
+        <members>Forecast__c.ForecastType__c</members>
+        <members>Forecast__c.Period__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Forecast__c-Forecast Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>SalesForecastingUser</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>ForecastingApp</members>
+        <name>CustomApplication</name>
+    </types>
+</Package>
