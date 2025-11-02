@@ -6,7 +6,8 @@
  * - cacheable query methods for LWC performance
  * - clearer, user-friendly error messages
  */
-/*checking the newly added 
+/*checking the newly added
+/* Newly tested comment
 public with sharing class ExpenseController {
 
   // Single-record create kept for convenience. Prefer bulk API below in integrations.
